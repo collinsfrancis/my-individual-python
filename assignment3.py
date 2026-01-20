@@ -20,7 +20,7 @@ class Gradebook:
             total += student.score
         return total / len(self.students)
     
-s1=Student("poker", 80)
+s1=Student("poker", 90)
 s2=Student("sabrina",20)
 s3=Student("collins",87)
 
