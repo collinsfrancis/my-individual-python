@@ -20,9 +20,9 @@ class Gradebook:
             total += student.score
         return total / len(self.students)
     
-s1=Student("poker", 90)
-s2=Student("sabrina",20)
-s3=Student("collins",87)
+s1=Student("irfad", 90)
+s2=Student("ilham",20)
+s3=Student("halima",87)
 
 gradebook=Gradebook()
 gradebook.add_student(s1)

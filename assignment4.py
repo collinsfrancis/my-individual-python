@@ -15,8 +15,8 @@ class Manager(Employee):
     def calculate_pay(self):
         return self.salary + self.bonus
     
-Employee = Employee("john",500000)
-Manager = Manager("collins",790000,200000)
+Employee = Employee("amina",300000)
+Manager = Manager("sabrina",790000,200000)
 
 print(Employee.calculate_pay())
 print(Manager.calculate_pay())
